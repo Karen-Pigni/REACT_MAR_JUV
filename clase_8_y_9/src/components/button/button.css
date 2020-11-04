@@ -21,6 +21,15 @@
   border: solid 1px black;
 }
 
+.custom-button:disabled,
+.custom-button:hover:disabled,
+.custom-button:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
 .custom-button.inverted {
   background-color: #fff;
   color: black;
