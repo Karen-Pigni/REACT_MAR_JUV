@@ -1,0 +1,15 @@
+#song {
+  flex-basis: 40%;
+}
+
+#lryric {
+  flex-basis: 30%;
+}
+
+#audio {
+  flex-basis: 20%;
+}
+
+#audio audio {
+  width: 100%;
+}
